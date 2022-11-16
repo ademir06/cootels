@@ -1,0 +1,201 @@
+@import "_veriables";
+@import "_mixins";
+
+.home {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+
+  .content {
+    height: 90vh;
+
+    button {
+      @include btn;
+    }
+
+    @include flex-space-between;
+
+    .left {
+      p {
+        margin-bottom: 20px;
+      }
+
+      width: 45%;
+
+      .home-btn {
+        @include btn;
+      }
+    }
+
+    .right {
+      width: 45%;
+
+      .img {
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+        .midle-img {
+          align-self: flex-end;
+          margin: 50px 10px 0 10px;
+        }
+
+        img {
+          width: 130px;
+          height: 400px;
+        }
+
+      }
+    }
+  }
+}
+
+.Room {
+  .content {
+    margin-top: 80px;
+
+    .home-btn {
+      @include btn;
+    }
+
+    .block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        padding-bottom: 20px;
+      }
+
+      .more {
+        margin: 0 0 0 10px;
+        //padding-left: 50px;
+      }
+    }
+  }
+}
+
+.bottom {
+  .content {
+    .block {
+      @include flex-space-between;
+      margin: 50px 20px;
+      .more {
+        width: 45%;
+        margin: 0 0 0 30px;
+      }
+
+      .learn {
+        width: 45%;
+      }
+
+    }
+
+
+  }
+}
+
+.explore {
+  .content {
+    .home-btn {
+      @include btn
+    }
+
+    .courses {
+      text-align: center;
+      margin: 80px 0;
+
+      p {
+        padding: 20px 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .block-meet {
+        padding: 80px 10px;
+        //width: 45%;
+
+
+        .alt {
+          p {
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+#rooms {
+  .content {
+    .option {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .button-left {
+        margin-top: 30px;
+
+        .btn {
+          @include btn;
+        }
+      }
+
+      .text-left {
+        p {
+          padding: 20px 0;
+        }
+      }
+
+      .right {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 45%;
+
+        .great {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 20px 0;
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+          padding: 10px 40px 10px 20px;
+          //width: 100%;
+
+          .i {
+            margin: 0 0 0 10px;
+          }
+
+          .h1 {
+            font-size: 30px;
+            padding: 30px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Happy {
+  .content {
+    .Hear {
+      img {
+        padding: 50px 0;
+      }
+
+      margin-top: 8rem;
+      text-align: center;
+
+      p {
+        margin: 30px 0;
+      }
+    }
+  }
+}
+

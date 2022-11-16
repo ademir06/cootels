@@ -1,0 +1,158 @@
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  // Header  section media
+  .header {
+    .content {
+      ul {
+        display: none;
+      }
+
+      .login {
+        display: none;
+      }
+
+      .burger {
+        display: block;
+      }
+    }
+  }
+  // Home section media
+  .home {
+    padding: 2rem 0;
+    margin: 0;
+
+    .content {
+      display: block;
+
+      .left {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+
+      .right {
+        width: 100%;
+      }
+
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  //room section starts
+  .Room {
+    padding: 2rem 0;
+    margin: 0;
+
+    .content {
+      .block {
+        display: block;
+
+        .learn {
+          width: 100% !important;
+          text-align: center;
+        }
+
+        .more {
+          width: 100%;
+          text-align: center;
+        }
+
+
+      }
+    }
+  }
+  .bottom {
+    padding: 2rem 0;
+    margin: 0;
+
+    .content {
+      .block {
+        display: block;
+
+        .more-meet {
+          width: 100%;
+
+
+        }
+
+
+      }
+
+    }
+  }
+  .explore {
+    padding: 2rem 0;
+    margin: 0;
+
+    .content {
+      .left {
+        display: block;
+      }
+
+      .block-meet {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+  #rooms {
+    padding: 2rem 0;
+    margin: 0;
+
+    .content {
+      .option {
+        display: flex;
+        flex-wrap: wrap;
+
+        .great {
+          width: 212%;
+
+          .h1 {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  #time {
+    padding: 2rem 0;
+    margin: 0;
+    height: 100%;
+
+    .content {
+      display: block;
+
+      .footer {
+        display: block !important;
+        width: 100%;
+        padding-top: 0;
+        text-align: center;
+
+        .rem {
+          width: 100%;
+          p{
+            margin: 20px 0;
+          }
+        }
+
+        .cabin-meet {
+          display: block !important;
+          margin-left: 0;
+          width: 100%;
+
+          .cabin {
+            margin: 50px 0;
+          }
+
+        }
+      }
+    }
+  }
+
+}
+

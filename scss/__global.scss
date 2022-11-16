@@ -1,0 +1,35 @@
+@import "_veriables";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1,h2{
+  padding-bottom: 10px;
+  font-size: 38px;
+  font-weight: 600;
+}
+p{
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: $text-color;
+  font-size: 18px;
+  font-weight: 400;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}

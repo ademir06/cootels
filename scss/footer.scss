@@ -1,0 +1,54 @@
+@import "_mixins";
+@import "_veriables";
+
+.time {
+  background: #0B265A;
+  height: 250px;
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 50px;
+
+    .rem {
+      width:25%;
+
+      h1 {
+        color: #FFFFFF;
+      }
+
+      p {
+        color: #D9DBDE;
+      }
+
+      .back {
+        font-size: 30px;
+        color: #FFFFFF;
+      }
+    }
+
+    .cabin-meet {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 17rem;
+
+      .cabin {
+        .from {
+          font-size: 30px;
+          color: #FFFFFF;
+        }
+
+        li {
+          color: #D9DBDE;
+          margin: 10px 0;
+        }
+
+
+      }
+
+    }
+  }
+}

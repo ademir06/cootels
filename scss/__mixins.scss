@@ -1,0 +1,16 @@
+@import "_veriables";
+@mixin btn{
+  border: none;
+  background-color:$bg-btn;
+  color: #fff;
+  padding: 10px 15px;
+  &hover{
+    cursor: pointer;
+
+  }
+}
+@mixin flex-space-between{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
